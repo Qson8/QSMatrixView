@@ -25,7 +25,7 @@
     
     QSSupportButtonItem *rightItem = [[QSSupportButtonItem alloc] init];
     rightItem.title = @"更多服务请点这里 >";
-    rightItem.titleColor = [UIColor whiteColor];
+    rightItem.titleColor = QSColorFromRGB(0xA0A0A0);
     rightItem.titleFont = [UIFont systemFontOfSize:12];
     rightItem.marginEdge = UIEdgeInsetsMake(0, 0, 0, 12);
     
@@ -45,7 +45,7 @@
     
     QSSupportButtonItem *rightItem = [[QSSupportButtonItem alloc] init];
     rightItem.title = @"更多服务请点这里 >";
-    rightItem.titleColor = [UIColor whiteColor];
+    rightItem.titleColor = QSColorFromRGB(0xA0A0A0);
     rightItem.titleFont = [UIFont systemFontOfSize:12];
     rightItem.marginEdge = UIEdgeInsetsMake(0, 0, 0, 12);
     

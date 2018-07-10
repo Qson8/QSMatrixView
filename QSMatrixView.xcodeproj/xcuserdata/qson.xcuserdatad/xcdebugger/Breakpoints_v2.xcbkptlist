@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "QSMatrixView/QSMatrixView/QSMatrixCollectionView.m"
-            timestampString = "552907530.178717"
+            filePath = "QSMatrixView/QSMatrixView/QSSupportView.m"
+            timestampString = "552907901.76556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
-            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "-setItem:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "QSMatrixView/Demo/ViewController.m"
-            timestampString = "552900073.749948"
+            filePath = "QSMatrixView/QSMatrixView/QSSupportView.m"
+            timestampString = "552907953.59741"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
-            landmarkName = "-tableView:heightForRowAtIndexPath:"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "-setRightButtonItem:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,12 +41,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "QSMatrixView/QSMatrixView/QSMatrixCollectionView.m"
-            timestampString = "552907530.17928"
+            filePath = "QSMatrixView/QSMatrixView/QSSupportView.m"
+            timestampString = "552907971.717396"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "-setupFrame"
             landmarkType = "7">
          </BreakpointContent>
@@ -57,13 +57,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "QSMatrixView/Demo/QSTableViewController.m"
-            timestampString = "552907530.179551"
+            filePath = "QSMatrixView/QSMatrixView/QSMatrixCollectionView.m"
+            timestampString = "552908014.397661"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "-pushQSMatrixCollectionDemo4"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "-setupFrame"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
