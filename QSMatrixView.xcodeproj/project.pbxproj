@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECD903F320F349D900FD53E4 /* QSMatrixViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD903F220F349D900FD53E4 /* QSMatrixViewTests.m */; };
+		ECD903FE20F349D900FD53E4 /* QSMatrixViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD903FD20F349D900FD53E4 /* QSMatrixViewUITests.m */; };
+		ECD9041820F34A2600FD53E4 /* QSMatrixCollectionDemo1.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9040C20F34A2600FD53E4 /* QSMatrixCollectionDemo1.m */; };
+		ECD9041920F34A2600FD53E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD9041020F34A2600FD53E4 /* Assets.xcassets */; };
+		ECD9041A20F34A2600FD53E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD9041120F34A2600FD53E4 /* LaunchScreen.storyboard */; };
+		ECD9041C20F34A2600FD53E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9041520F34A2600FD53E4 /* main.m */; };
+		ECD9041D20F34A2600FD53E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9041620F34A2600FD53E4 /* AppDelegate.m */; };
+		ECD9041E20F34A2600FD53E4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECD9041720F34A2600FD53E4 /* Info.plist */; };
+		ECD9042220F34A9500FD53E4 /* QSMatrixCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9042120F34A9500FD53E4 /* QSMatrixCollectionView.m */; };
+		ECD9042520F34AE800FD53E4 /* QSCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9042420F34AE800FD53E4 /* QSCollectionViewFlowLayout.m */; };
+		ECD9043520F34BE900FD53E4 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9042C20F34BE900FD53E4 /* UIImage+Extension.m */; };
+		ECD9043620F34BE900FD53E4 /* NSString+AttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9042F20F34BE900FD53E4 /* NSString+AttributedString.m */; };
+		ECD9043720F34BE900FD53E4 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9043020F34BE900FD53E4 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		ECD9043920F34BE900FD53E4 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9043320F34BE900FD53E4 /* UIView+Extension.m */; };
+		ECD9043D20F34D4C00FD53E4 /* UIColor+QS.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9043C20F34D4C00FD53E4 /* UIColor+QS.m */; };
+		ECD9044020F34E4300FD53E4 /* QSMatrixCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9043F20F34E4300FD53E4 /* QSMatrixCollectionViewCell.m */; };
+		ECD9044320F34EC300FD53E4 /* QSMatrixCollectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9044220F34EC300FD53E4 /* QSMatrixCollectionItem.m */; };
+		ECD9044620F354D700FD53E4 /* UIImageView+QS.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9044520F354D700FD53E4 /* UIImageView+QS.m */; };
+		ECD9046620F355E500FD53E4 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9044B20F355E500FD53E4 /* SDWebImageManager.m */; };
+		ECD9046720F355E500FD53E4 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9044C20F355E500FD53E4 /* SDWebImageDecoder.m */; };
+		ECD9046820F355E500FD53E4 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9044E20F355E500FD53E4 /* UIImageView+HighlightedWebCache.m */; };
+		ECD9046920F355E500FD53E4 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9045020F355E500FD53E4 /* SDWebImageDownloader.m */; };
+		ECD9046A20F355E500FD53E4 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9045120F355E500FD53E4 /* UIImage+GIF.m */; };
+		ECD9046B20F355E500FD53E4 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9045320F355E500FD53E4 /* UIImage+MultiFormat.m */; };
+		ECD9046C20F355E500FD53E4 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9045420F355E500FD53E4 /* SDWebImageCompat.m */; };
+		ECD9046D20F355E500FD53E4 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9045520F355E500FD53E4 /* SDWebImagePrefetcher.m */; };
+		ECD9046E20F355E500FD53E4 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9045720F355E500FD53E4 /* SDImageCache.m */; };
+		ECD9046F20F355E500FD53E4 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9045920F355E500FD53E4 /* SDWebImageDownloaderOperation.m */; };
+		ECD9047020F355E500FD53E4 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9045C20F355E500FD53E4 /* NSData+ImageContentType.m */; };
+		ECD9047120F355E500FD53E4 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9045D20F355E500FD53E4 /* UIImageView+WebCache.m */; };
+		ECD9047220F355E500FD53E4 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9046020F355E500FD53E4 /* UIView+WebCacheOperation.m */; };
+		ECD9047320F355E500FD53E4 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9046420F355E500FD53E4 /* UIButton+WebCache.m */; };
+		ECD9047620F35A0000FD53E4 /* QSSupportView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9047520F35A0000FD53E4 /* QSSupportView.m */; };
+		ECD9047920F35D1400FD53E4 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9047820F35D1400FD53E4 /* UIButton+ImageTitleSpacing.m */; };
+		ECD9047B20F35ED500FD53E4 /* QSMatrixView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ECD9047A20F35ED500FD53E4 /* QSMatrixView.bundle */; };
+		ECD9047E20F361B500FD53E4 /* QSMatrixHeaderAndFooterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9047D20F361B500FD53E4 /* QSMatrixHeaderAndFooterItem.m */; };
+		ECD9048020F47CF800FD53E4 /* resources.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECD9047F20F47CF800FD53E4 /* resources.plist */; };
+		ECD9048620F4963C00FD53E4 /* QSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9048420F4963C00FD53E4 /* QSBaseViewController.m */; };
+		ECD9048C20F496F300FD53E4 /* QSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9048B20F496F300FD53E4 /* QSTableViewController.m */; };
+		ECD9048F20F499B700FD53E4 /* QSMatrixCollectionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9048E20F499B700FD53E4 /* QSMatrixCollectionDemo.m */; };
+		ECD9049320F4A68D00FD53E4 /* QSMatrixCollectionDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9049220F4A68D00FD53E4 /* QSMatrixCollectionDemo2.m */; };
+		ECD9049620F4AFB800FD53E4 /* QSMatrixCollectionDemo3.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9049520F4AFB800FD53E4 /* QSMatrixCollectionDemo3.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECD903EF20F349D900FD53E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD903CE20F349D900FD53E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD903D520F349D900FD53E4;
+			remoteInfo = QSMatrixView;
+		};
+		ECD903FA20F349D900FD53E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD903CE20F349D900FD53E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD903D520F349D900FD53E4;
+			remoteInfo = QSMatrixView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECD903D620F349D900FD53E4 /* QSMatrixView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSMatrixView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD903EE20F349D900FD53E4 /* QSMatrixViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSMatrixViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD903F220F349D900FD53E4 /* QSMatrixViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSMatrixViewTests.m; sourceTree = "<group>"; };
+		ECD903F420F349D900FD53E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD903F920F349D900FD53E4 /* QSMatrixViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSMatrixViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD903FD20F349D900FD53E4 /* QSMatrixViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSMatrixViewUITests.m; sourceTree = "<group>"; };
+		ECD903FF20F349D900FD53E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD9040C20F34A2600FD53E4 /* QSMatrixCollectionDemo1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSMatrixCollectionDemo1.m; sourceTree = "<group>"; };
+		ECD9040D20F34A2600FD53E4 /* QSMatrixCollectionDemo1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSMatrixCollectionDemo1.h; sourceTree = "<group>"; };
+		ECD9040F20F34A2600FD53E4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECD9041020F34A2600FD53E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECD9041220F34A2600FD53E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECD9041520F34A2600FD53E4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECD9041620F34A2600FD53E4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECD9041720F34A2600FD53E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD9042020F34A9500FD53E4 /* QSMatrixCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSMatrixCollectionView.h; sourceTree = "<group>"; };
+		ECD9042120F34A9500FD53E4 /* QSMatrixCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSMatrixCollectionView.m; sourceTree = "<group>"; };
+		ECD9042320F34AE800FD53E4 /* QSCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		ECD9042420F34AE800FD53E4 /* QSCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		ECD9042620F34B0F00FD53E4 /* QSMatrixView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSMatrixView.h; sourceTree = "<group>"; };
+		ECD9042920F34BE900FD53E4 /* NSString+AttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AttributedString.h"; sourceTree = "<group>"; };
+		ECD9042A20F34BE900FD53E4 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		ECD9042B20F34BE900FD53E4 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		ECD9042C20F34BE900FD53E4 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		ECD9042F20F34BE900FD53E4 /* NSString+AttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AttributedString.m"; sourceTree = "<group>"; };
+		ECD9043020F34BE900FD53E4 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		ECD9043220F34BE900FD53E4 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		ECD9043320F34BE900FD53E4 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		ECD9043B20F34D4C00FD53E4 /* UIColor+QS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+QS.h"; sourceTree = "<group>"; };
+		ECD9043C20F34D4C00FD53E4 /* UIColor+QS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QS.m"; sourceTree = "<group>"; };
+		ECD9043E20F34E4300FD53E4 /* QSMatrixCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSMatrixCollectionViewCell.h; sourceTree = "<group>"; };
+		ECD9043F20F34E4300FD53E4 /* QSMatrixCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSMatrixCollectionViewCell.m; sourceTree = "<group>"; };
+		ECD9044120F34EC300FD53E4 /* QSMatrixCollectionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSMatrixCollectionItem.h; sourceTree = "<group>"; };
+		ECD9044220F34EC300FD53E4 /* QSMatrixCollectionItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSMatrixCollectionItem.m; sourceTree = "<group>"; };
+		ECD9044420F354D600FD53E4 /* UIImageView+QS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+QS.h"; sourceTree = "<group>"; };
+		ECD9044520F354D700FD53E4 /* UIImageView+QS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+QS.m"; sourceTree = "<group>"; };
+		ECD9044920F355E500FD53E4 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		ECD9044A20F355E500FD53E4 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		ECD9044B20F355E500FD53E4 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		ECD9044C20F355E500FD53E4 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		ECD9044D20F355E500FD53E4 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		ECD9044E20F355E500FD53E4 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		ECD9044F20F355E500FD53E4 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		ECD9045020F355E500FD53E4 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		ECD9045120F355E500FD53E4 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		ECD9045220F355E500FD53E4 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		ECD9045320F355E500FD53E4 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		ECD9045420F355E500FD53E4 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		ECD9045520F355E500FD53E4 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		ECD9045620F355E500FD53E4 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		ECD9045720F355E500FD53E4 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		ECD9045820F355E500FD53E4 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		ECD9045920F355E500FD53E4 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		ECD9045A20F355E500FD53E4 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		ECD9045B20F355E500FD53E4 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		ECD9045C20F355E500FD53E4 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		ECD9045D20F355E500FD53E4 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		ECD9045E20F355E500FD53E4 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		ECD9045F20F355E500FD53E4 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		ECD9046020F355E500FD53E4 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		ECD9046120F355E500FD53E4 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		ECD9046220F355E500FD53E4 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		ECD9046320F355E500FD53E4 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		ECD9046420F355E500FD53E4 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		ECD9046520F355E500FD53E4 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		ECD9047420F35A0000FD53E4 /* QSSupportView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSSupportView.h; sourceTree = "<group>"; };
+		ECD9047520F35A0000FD53E4 /* QSSupportView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSSupportView.m; sourceTree = "<group>"; };
+		ECD9047720F35D1400FD53E4 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		ECD9047820F35D1400FD53E4 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		ECD9047A20F35ED500FD53E4 /* QSMatrixView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QSMatrixView.bundle; sourceTree = "<group>"; };
+		ECD9047C20F361B500FD53E4 /* QSMatrixHeaderAndFooterItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSMatrixHeaderAndFooterItem.h; sourceTree = "<group>"; };
+		ECD9047D20F361B500FD53E4 /* QSMatrixHeaderAndFooterItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSMatrixHeaderAndFooterItem.m; sourceTree = "<group>"; };
+		ECD9047F20F47CF800FD53E4 /* resources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = resources.plist; sourceTree = "<group>"; };
+		ECD9048420F4963C00FD53E4 /* QSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSBaseViewController.m; sourceTree = "<group>"; };
+		ECD9048520F4963C00FD53E4 /* QSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSBaseViewController.h; sourceTree = "<group>"; };
+		ECD9048A20F496F300FD53E4 /* QSTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSTableViewController.h; sourceTree = "<group>"; };
+		ECD9048B20F496F300FD53E4 /* QSTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSTableViewController.m; sourceTree = "<group>"; };
+		ECD9048D20F499B700FD53E4 /* QSMatrixCollectionDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSMatrixCollectionDemo.h; sourceTree = "<group>"; };
+		ECD9048E20F499B700FD53E4 /* QSMatrixCollectionDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSMatrixCollectionDemo.m; sourceTree = "<group>"; };
+		ECD9049020F4A00900FD53E4 /* QSMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSMacro.h; sourceTree = "<group>"; };
+		ECD9049120F4A68D00FD53E4 /* QSMatrixCollectionDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSMatrixCollectionDemo2.h; sourceTree = "<group>"; };
+		ECD9049220F4A68D00FD53E4 /* QSMatrixCollectionDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSMatrixCollectionDemo2.m; sourceTree = "<group>"; };
+		ECD9049420F4AFB800FD53E4 /* QSMatrixCollectionDemo3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSMatrixCollectionDemo3.h; sourceTree = "<group>"; };
+		ECD9049520F4AFB800FD53E4 /* QSMatrixCollectionDemo3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSMatrixCollectionDemo3.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECD903D320F349D900FD53E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD903EB20F349D900FD53E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD903F620F349D900FD53E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECD903CD20F349D900FD53E4 = {
+			isa = PBXGroup;
+			children = (
+				ECD903D820F349D900FD53E4 /* QSMatrixView */,
+				ECD903F120F349D900FD53E4 /* QSMatrixViewTests */,
+				ECD903FC20F349D900FD53E4 /* QSMatrixViewUITests */,
+				ECD903D720F349D900FD53E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECD903D720F349D900FD53E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECD903D620F349D900FD53E4 /* QSMatrixView.app */,
+				ECD903EE20F349D900FD53E4 /* QSMatrixViewTests.xctest */,
+				ECD903F920F349D900FD53E4 /* QSMatrixViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECD903D820F349D900FD53E4 /* QSMatrixView */ = {
+			isa = PBXGroup;
+			children = (
+				ECD9041F20F34A5A00FD53E4 /* QSMatrixView */,
+				ECD9040B20F34A2600FD53E4 /* Demo */,
+				ECD9044720F3559600FD53E4 /* Libs */,
+				ECD9040E20F34A2600FD53E4 /* System */,
+			);
+			path = QSMatrixView;
+			sourceTree = "<group>";
+		};
+		ECD903F120F349D900FD53E4 /* QSMatrixViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD903F220F349D900FD53E4 /* QSMatrixViewTests.m */,
+				ECD903F420F349D900FD53E4 /* Info.plist */,
+			);
+			path = QSMatrixViewTests;
+			sourceTree = "<group>";
+		};
+		ECD903FC20F349D900FD53E4 /* QSMatrixViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD903FD20F349D900FD53E4 /* QSMatrixViewUITests.m */,
+				ECD903FF20F349D900FD53E4 /* Info.plist */,
+			);
+			path = QSMatrixViewUITests;
+			sourceTree = "<group>";
+		};
+		ECD9040B20F34A2600FD53E4 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				ECD9049020F4A00900FD53E4 /* QSMacro.h */,
+				ECD9048520F4963C00FD53E4 /* QSBaseViewController.h */,
+				ECD9048420F4963C00FD53E4 /* QSBaseViewController.m */,
+				ECD9048A20F496F300FD53E4 /* QSTableViewController.h */,
+				ECD9048B20F496F300FD53E4 /* QSTableViewController.m */,
+				ECD9047F20F47CF800FD53E4 /* resources.plist */,
+				ECD9048D20F499B700FD53E4 /* QSMatrixCollectionDemo.h */,
+				ECD9048E20F499B700FD53E4 /* QSMatrixCollectionDemo.m */,
+				ECD9040D20F34A2600FD53E4 /* QSMatrixCollectionDemo1.h */,
+				ECD9040C20F34A2600FD53E4 /* QSMatrixCollectionDemo1.m */,
+				ECD9049120F4A68D00FD53E4 /* QSMatrixCollectionDemo2.h */,
+				ECD9049220F4A68D00FD53E4 /* QSMatrixCollectionDemo2.m */,
+				ECD9049420F4AFB800FD53E4 /* QSMatrixCollectionDemo3.h */,
+				ECD9049520F4AFB800FD53E4 /* QSMatrixCollectionDemo3.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		ECD9040E20F34A2600FD53E4 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				ECD9040F20F34A2600FD53E4 /* AppDelegate.h */,
+				ECD9041620F34A2600FD53E4 /* AppDelegate.m */,
+				ECD9041020F34A2600FD53E4 /* Assets.xcassets */,
+				ECD9041120F34A2600FD53E4 /* LaunchScreen.storyboard */,
+				ECD9041520F34A2600FD53E4 /* main.m */,
+				ECD9041720F34A2600FD53E4 /* Info.plist */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		ECD9041F20F34A5A00FD53E4 /* QSMatrixView */ = {
+			isa = PBXGroup;
+			children = (
+				ECD9042620F34B0F00FD53E4 /* QSMatrixView.h */,
+				ECD9042020F34A9500FD53E4 /* QSMatrixCollectionView.h */,
+				ECD9042120F34A9500FD53E4 /* QSMatrixCollectionView.m */,
+				ECD9043E20F34E4300FD53E4 /* QSMatrixCollectionViewCell.h */,
+				ECD9043F20F34E4300FD53E4 /* QSMatrixCollectionViewCell.m */,
+				ECD9042320F34AE800FD53E4 /* QSCollectionViewFlowLayout.h */,
+				ECD9042420F34AE800FD53E4 /* QSCollectionViewFlowLayout.m */,
+				ECD9047420F35A0000FD53E4 /* QSSupportView.h */,
+				ECD9047520F35A0000FD53E4 /* QSSupportView.m */,
+				ECD9044120F34EC300FD53E4 /* QSMatrixCollectionItem.h */,
+				ECD9044220F34EC300FD53E4 /* QSMatrixCollectionItem.m */,
+				ECD9047C20F361B500FD53E4 /* QSMatrixHeaderAndFooterItem.h */,
+				ECD9047D20F361B500FD53E4 /* QSMatrixHeaderAndFooterItem.m */,
+				ECD9047A20F35ED500FD53E4 /* QSMatrixView.bundle */,
+				ECD9042820F34BE900FD53E4 /* Categary */,
+			);
+			path = QSMatrixView;
+			sourceTree = "<group>";
+		};
+		ECD9042820F34BE900FD53E4 /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				ECD9044420F354D600FD53E4 /* UIImageView+QS.h */,
+				ECD9044520F354D700FD53E4 /* UIImageView+QS.m */,
+				ECD9042920F34BE900FD53E4 /* NSString+AttributedString.h */,
+				ECD9042F20F34BE900FD53E4 /* NSString+AttributedString.m */,
+				ECD9042A20F34BE900FD53E4 /* UINavigationController+FDFullscreenPopGesture.h */,
+				ECD9043020F34BE900FD53E4 /* UINavigationController+FDFullscreenPopGesture.m */,
+				ECD9043220F34BE900FD53E4 /* UIImage+Extension.h */,
+				ECD9042C20F34BE900FD53E4 /* UIImage+Extension.m */,
+				ECD9042B20F34BE900FD53E4 /* UIView+Extension.h */,
+				ECD9043320F34BE900FD53E4 /* UIView+Extension.m */,
+				ECD9043B20F34D4C00FD53E4 /* UIColor+QS.h */,
+				ECD9043C20F34D4C00FD53E4 /* UIColor+QS.m */,
+				ECD9047720F35D1400FD53E4 /* UIButton+ImageTitleSpacing.h */,
+				ECD9047820F35D1400FD53E4 /* UIButton+ImageTitleSpacing.m */,
+			);
+			path = Categary;
+			sourceTree = "<group>";
+		};
+		ECD9044720F3559600FD53E4 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				ECD9044820F355E500FD53E4 /* SDWebImage */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		ECD9044820F355E500FD53E4 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				ECD9044920F355E500FD53E4 /* UIImageView+WebCache.h */,
+				ECD9044A20F355E500FD53E4 /* NSData+ImageContentType.h */,
+				ECD9044B20F355E500FD53E4 /* SDWebImageManager.m */,
+				ECD9044C20F355E500FD53E4 /* SDWebImageDecoder.m */,
+				ECD9044D20F355E500FD53E4 /* SDWebImageDownloaderOperation.h */,
+				ECD9044E20F355E500FD53E4 /* UIImageView+HighlightedWebCache.m */,
+				ECD9044F20F355E500FD53E4 /* SDImageCache.h */,
+				ECD9045020F355E500FD53E4 /* SDWebImageDownloader.m */,
+				ECD9045120F355E500FD53E4 /* UIImage+GIF.m */,
+				ECD9045220F355E500FD53E4 /* UIButton+WebCache.h */,
+				ECD9045320F355E500FD53E4 /* UIImage+MultiFormat.m */,
+				ECD9045420F355E500FD53E4 /* SDWebImageCompat.m */,
+				ECD9045520F355E500FD53E4 /* SDWebImagePrefetcher.m */,
+				ECD9045620F355E500FD53E4 /* UIView+WebCacheOperation.h */,
+				ECD9045720F355E500FD53E4 /* SDImageCache.m */,
+				ECD9045820F355E500FD53E4 /* UIImageView+HighlightedWebCache.h */,
+				ECD9045920F355E500FD53E4 /* SDWebImageDownloaderOperation.m */,
+				ECD9045A20F355E500FD53E4 /* SDWebImageDecoder.h */,
+				ECD9045B20F355E500FD53E4 /* SDWebImageManager.h */,
+				ECD9045C20F355E500FD53E4 /* NSData+ImageContentType.m */,
+				ECD9045D20F355E500FD53E4 /* UIImageView+WebCache.m */,
+				ECD9045E20F355E500FD53E4 /* SDWebImageOperation.h */,
+				ECD9045F20F355E500FD53E4 /* SDWebImageDownloader.h */,
+				ECD9046020F355E500FD53E4 /* UIView+WebCacheOperation.m */,
+				ECD9046120F355E500FD53E4 /* SDWebImagePrefetcher.h */,
+				ECD9046220F355E500FD53E4 /* SDWebImageCompat.h */,
+				ECD9046320F355E500FD53E4 /* UIImage+MultiFormat.h */,
+				ECD9046420F355E500FD53E4 /* UIButton+WebCache.m */,
+				ECD9046520F355E500FD53E4 /* UIImage+GIF.h */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECD903D520F349D900FD53E4 /* QSMatrixView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD9040220F349D900FD53E4 /* Build configuration list for PBXNativeTarget "QSMatrixView" */;
+			buildPhases = (
+				ECD903D220F349D900FD53E4 /* Sources */,
+				ECD903D320F349D900FD53E4 /* Frameworks */,
+				ECD903D420F349D900FD53E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QSMatrixView;
+			productName = QSMatrixView;
+			productReference = ECD903D620F349D900FD53E4 /* QSMatrixView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECD903ED20F349D900FD53E4 /* QSMatrixViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD9040520F349D900FD53E4 /* Build configuration list for PBXNativeTarget "QSMatrixViewTests" */;
+			buildPhases = (
+				ECD903EA20F349D900FD53E4 /* Sources */,
+				ECD903EB20F349D900FD53E4 /* Frameworks */,
+				ECD903EC20F349D900FD53E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD903F020F349D900FD53E4 /* PBXTargetDependency */,
+			);
+			name = QSMatrixViewTests;
+			productName = QSMatrixViewTests;
+			productReference = ECD903EE20F349D900FD53E4 /* QSMatrixViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECD903F820F349D900FD53E4 /* QSMatrixViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD9040820F349D900FD53E4 /* Build configuration list for PBXNativeTarget "QSMatrixViewUITests" */;
+			buildPhases = (
+				ECD903F520F349D900FD53E4 /* Sources */,
+				ECD903F620F349D900FD53E4 /* Frameworks */,
+				ECD903F720F349D900FD53E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD903FB20F349D900FD53E4 /* PBXTargetDependency */,
+			);
+			name = QSMatrixViewUITests;
+			productName = QSMatrixViewUITests;
+			productReference = ECD903F920F349D900FD53E4 /* QSMatrixViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECD903CE20F349D900FD53E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Qson;
+				TargetAttributes = {
+					ECD903D520F349D900FD53E4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ECD903ED20F349D900FD53E4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECD903D520F349D900FD53E4;
+					};
+					ECD903F820F349D900FD53E4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECD903D520F349D900FD53E4;
+					};
+				};
+			};
+			buildConfigurationList = ECD903D120F349D900FD53E4 /* Build configuration list for PBXProject "QSMatrixView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECD903CD20F349D900FD53E4;
+			productRefGroup = ECD903D720F349D900FD53E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECD903D520F349D900FD53E4 /* QSMatrixView */,
+				ECD903ED20F349D900FD53E4 /* QSMatrixViewTests */,
+				ECD903F820F349D900FD53E4 /* QSMatrixViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECD903D420F349D900FD53E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD9041E20F34A2600FD53E4 /* Info.plist in Resources */,
+				ECD9041920F34A2600FD53E4 /* Assets.xcassets in Resources */,
+				ECD9041A20F34A2600FD53E4 /* LaunchScreen.storyboard in Resources */,
+				ECD9048020F47CF800FD53E4 /* resources.plist in Resources */,
+				ECD9047B20F35ED500FD53E4 /* QSMatrixView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD903EC20F349D900FD53E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD903F720F349D900FD53E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECD903D220F349D900FD53E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD9046A20F355E500FD53E4 /* UIImage+GIF.m in Sources */,
+				ECD9043920F34BE900FD53E4 /* UIView+Extension.m in Sources */,
+				ECD9046620F355E500FD53E4 /* SDWebImageManager.m in Sources */,
+				ECD9046B20F355E500FD53E4 /* UIImage+MultiFormat.m in Sources */,
+				ECD9046820F355E500FD53E4 /* UIImageView+HighlightedWebCache.m in Sources */,
+				ECD9041C20F34A2600FD53E4 /* main.m in Sources */,
+				ECD9044020F34E4300FD53E4 /* QSMatrixCollectionViewCell.m in Sources */,
+				ECD9047120F355E500FD53E4 /* UIImageView+WebCache.m in Sources */,
+				ECD9049320F4A68D00FD53E4 /* QSMatrixCollectionDemo2.m in Sources */,
+				ECD9046E20F355E500FD53E4 /* SDImageCache.m in Sources */,
+				ECD9049620F4AFB800FD53E4 /* QSMatrixCollectionDemo3.m in Sources */,
+				ECD9041820F34A2600FD53E4 /* QSMatrixCollectionDemo1.m in Sources */,
+				ECD9043720F34BE900FD53E4 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				ECD9047020F355E500FD53E4 /* NSData+ImageContentType.m in Sources */,
+				ECD9044320F34EC300FD53E4 /* QSMatrixCollectionItem.m in Sources */,
+				ECD9047E20F361B500FD53E4 /* QSMatrixHeaderAndFooterItem.m in Sources */,
+				ECD9048620F4963C00FD53E4 /* QSBaseViewController.m in Sources */,
+				ECD9048C20F496F300FD53E4 /* QSTableViewController.m in Sources */,
+				ECD9046720F355E500FD53E4 /* SDWebImageDecoder.m in Sources */,
+				ECD9047220F355E500FD53E4 /* UIView+WebCacheOperation.m in Sources */,
+				ECD9043620F34BE900FD53E4 /* NSString+AttributedString.m in Sources */,
+				ECD9041D20F34A2600FD53E4 /* AppDelegate.m in Sources */,
+				ECD9044620F354D700FD53E4 /* UIImageView+QS.m in Sources */,
+				ECD9048F20F499B700FD53E4 /* QSMatrixCollectionDemo.m in Sources */,
+				ECD9047920F35D1400FD53E4 /* UIButton+ImageTitleSpacing.m in Sources */,
+				ECD9046920F355E500FD53E4 /* SDWebImageDownloader.m in Sources */,
+				ECD9046D20F355E500FD53E4 /* SDWebImagePrefetcher.m in Sources */,
+				ECD9046F20F355E500FD53E4 /* SDWebImageDownloaderOperation.m in Sources */,
+				ECD9043520F34BE900FD53E4 /* UIImage+Extension.m in Sources */,
+				ECD9047620F35A0000FD53E4 /* QSSupportView.m in Sources */,
+				ECD9043D20F34D4C00FD53E4 /* UIColor+QS.m in Sources */,
+				ECD9046C20F355E500FD53E4 /* SDWebImageCompat.m in Sources */,
+				ECD9042220F34A9500FD53E4 /* QSMatrixCollectionView.m in Sources */,
+				ECD9047320F355E500FD53E4 /* UIButton+WebCache.m in Sources */,
+				ECD9042520F34AE800FD53E4 /* QSCollectionViewFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD903EA20F349D900FD53E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD903F320F349D900FD53E4 /* QSMatrixViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD903F520F349D900FD53E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD903FE20F349D900FD53E4 /* QSMatrixViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECD903F020F349D900FD53E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD903D520F349D900FD53E4 /* QSMatrixView */;
+			targetProxy = ECD903EF20F349D900FD53E4 /* PBXContainerItemProxy */;
+		};
+		ECD903FB20F349D900FD53E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD903D520F349D900FD53E4 /* QSMatrixView */;
+			targetProxy = ECD903FA20F349D900FD53E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECD9041120F34A2600FD53E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD9041220F34A2600FD53E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECD9040020F349D900FD53E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECD9040120F349D900FD53E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECD9040320F349D900FD53E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BT726ND66X;
+				INFOPLIST_FILE = "$(SRCROOT)/QSMatrixView/System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qson.QSMatrixView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECD9040420F349D900FD53E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BT726ND66X;
+				INFOPLIST_FILE = "$(SRCROOT)/QSMatrixView/System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qson.QSMatrixView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECD9040620F349D900FD53E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BT726ND66X;
+				INFOPLIST_FILE = QSMatrixViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qson.QSMatrixViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QSMatrixView.app/QSMatrixView";
+			};
+			name = Debug;
+		};
+		ECD9040720F349D900FD53E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BT726ND66X;
+				INFOPLIST_FILE = QSMatrixViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qson.QSMatrixViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QSMatrixView.app/QSMatrixView";
+			};
+			name = Release;
+		};
+		ECD9040920F349D900FD53E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BT726ND66X;
+				INFOPLIST_FILE = QSMatrixViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qson.QSMatrixViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QSMatrixView;
+			};
+			name = Debug;
+		};
+		ECD9040A20F349D900FD53E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BT726ND66X;
+				INFOPLIST_FILE = QSMatrixViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qson.QSMatrixViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QSMatrixView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECD903D120F349D900FD53E4 /* Build configuration list for PBXProject "QSMatrixView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD9040020F349D900FD53E4 /* Debug */,
+				ECD9040120F349D900FD53E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD9040220F349D900FD53E4 /* Build configuration list for PBXNativeTarget "QSMatrixView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD9040320F349D900FD53E4 /* Debug */,
+				ECD9040420F349D900FD53E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD9040520F349D900FD53E4 /* Build configuration list for PBXNativeTarget "QSMatrixViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD9040620F349D900FD53E4 /* Debug */,
+				ECD9040720F349D900FD53E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD9040820F349D900FD53E4 /* Build configuration list for PBXNativeTarget "QSMatrixViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD9040920F349D900FD53E4 /* Debug */,
+				ECD9040A20F349D900FD53E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECD903CE20F349D900FD53E4 /* Project object */;
+}
