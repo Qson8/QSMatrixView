@@ -1,14 +1,14 @@
 //
-//  UIColor+QS.h
+//  UIColor+MV.h
 //  QSMatrixView
 //
-//  Created by Qson on 2018/7/9.
+//  Created by Qson on 2018/7/11.
 //  Copyright © 2018年 Qson. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIColor (QS)
+@interface UIColor (MV)
 /**
  *  16进制格式的颜色转化成类对象
  */

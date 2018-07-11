@@ -1,15 +1,14 @@
 //
-//  UIImage+Extension.m
-//  QSSearchDemo
+//  UIImage+MV.m
+//  QSMatrixView
 //
-//  Created by Qson on 2018/7/3.
+//  Created by Qson on 2018/7/11.
 //  Copyright © 2018年 Qson. All rights reserved.
 //
 
-#import "UIImage+Extension.h"
+#import "UIImage+MV.h"
 
-@implementation UIImage (Extension)
-
+@implementation UIImage (MV)
 + (UIImage *)imageWithImageName:(NSString *)imageName
 {
     NSString *dirPath = [[NSBundle mainBundle] pathForResource:@"QSMatrixView" ofType:@"bundle"];
@@ -26,5 +25,4 @@
     UIGraphicsEndImageContext();
     return result;
 }
-
 @end

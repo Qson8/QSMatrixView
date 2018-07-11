@@ -7,9 +7,8 @@
 //
 
 #import "QSSupportView.h"
-#import "UIButton+ImageTitleSpacing.h"
-#import "QSMacro.h"
-
+#import "UIButton+MV.h"
+#import "UIView+MV.h"
 
 @interface QSSupportView ()
 @property (nonatomic, weak) QSSupportButtonItem *leftButtonItem;
@@ -58,11 +57,11 @@
     
     if(_leftButtonItem.title.length && _leftButtonItem.image) {
         CGFloat spa = _leftButtonItem.imageEdge.right + _leftButtonItem.titleEdge.left;
-        [self.leftButton layoutButtonWithEdgeInsetsStyle:QSButtonEdgeInsetsStyleLeft imageTitleSpace:spa];
+        [self.leftButton layoutButtonWithEdgeInsetsStyle:MVButtonEdgeInsetsStyleLeft imageTitleSpace:spa];
     }
     if(_rightButtonItem.title.length && _rightButtonItem.image) {
         CGFloat spa = _rightButtonItem.titleEdge.right + _rightButtonItem.imageEdge.left;
-        [self.rightButton layoutButtonWithEdgeInsetsStyle:QSButtonEdgeInsetsStyleRight imageTitleSpace:spa];
+        [self.rightButton layoutButtonWithEdgeInsetsStyle:MVButtonEdgeInsetsStyleRight imageTitleSpace:spa];
     }
 }
 

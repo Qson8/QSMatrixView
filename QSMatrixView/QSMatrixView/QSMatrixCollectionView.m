@@ -8,11 +8,11 @@
 
 #import "QSMatrixCollectionView.h"
 #import "QSCollectionViewFlowLayout.h"
-#import "QSMacro.h"
 #import "QSMatrixCollectionItem.h"
 #import "QSSupportView.h"
-#import "UIImage+Extension.h"
+#import "QSMatrixCollectionViewCell.h"
 #import "QSMatrixHeaderAndFooterItem.h"
+#import "UIView+MV.h"
 
 #define kColCount 4 // 列数
 

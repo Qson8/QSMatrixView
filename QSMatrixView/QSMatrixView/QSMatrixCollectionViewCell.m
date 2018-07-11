@@ -8,7 +8,7 @@
 
 #import "QSMatrixCollectionViewCell.h"
 #import "QSMatrixCollectionItem.h"
-#import "QSMacro.h"
+#import "UIImageView+MV.h"
 
 @interface QSMatrixCollectionViewCell ()
 @property (nonatomic, weak) UIView *customView;
@@ -25,7 +25,7 @@
     self.titleLabel.textColor = _UIItem.titleColor;
     self.titleLabel.font = _UIItem.titleFont;
     
-    [self.iconView qs_setImageWithUrlStr:_item.photo placeholderImage:_item.placeholderImage completion:nil];
+    [self.iconView mv_setImageWithUrlStr:_item.photo placeholderImage:_item.placeholderImage completion:nil];
 }
 
 - (void)setupFrame {

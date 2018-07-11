@@ -1,15 +1,14 @@
 //
-//  UIColor+QS.m
+//  UIColor+MV.m
 //  QSMatrixView
 //
-//  Created by Qson on 2018/7/9.
+//  Created by Qson on 2018/7/11.
 //  Copyright © 2018年 Qson. All rights reserved.
 //
 
-#import "UIColor+QS.h"
+#import "UIColor+MV.h"
 
-@implementation UIColor (QS)
-
+@implementation UIColor (MV)
 + (UIColor *)colorWithHexValue:(NSInteger)hexValue alpha:(CGFloat)alpha
 {
     return [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16))/255.0 green:((float)((hexValue & 0xFF00) >> 8))/255.0 blue:((float)(hexValue & 0xFF))/255.0 alpha:alpha];

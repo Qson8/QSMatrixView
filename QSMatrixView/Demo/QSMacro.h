@@ -7,13 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIView+Extension.h"
-#import "NSString+AttributedString.h"
+#import "UIView+MV.h"
 
-#import "UIImage+Extension.h"
-#import "UIColor+QS.h"
-#import "QSMatrixCollectionViewCell.h"
-#import "UIImageView+QS.h"
 
 #ifndef QSMacro_h
 #define QSMacro_h

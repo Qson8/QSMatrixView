@@ -1,29 +1,28 @@
 //
-//  UIImageView+QS.m
-//  SydneyToday
+//  UIImageView+MV.m
+//  QSMatrixView
 //
-//  Created by Qson on 16/9/24.
-//  Copyright © 2016年 Qson. All rights reserved.
+//  Created by Qson on 2018/7/11.
+//  Copyright © 2018年 Qson. All rights reserved.
 //
 
-#import "UIImageView+QS.h"
-#import "SDWebImageDownloader.h"
+#import "UIImageView+MV.h"
 #import "UIImageView+WebCache.h"
 
-@implementation UIImageView (QS)
+@implementation UIImageView (MV)
 /**
  *  处理图片控件加载和动画显示
  *
  *  @param url            要加载的url字符串地址
  *  @param completedBlock 完成的回调
  */
-- (void)qs_setImageWithUrlStr:(NSString *)url completion:(QSImageCompletionBlock)completedBlock{
+- (void)mv_setImageWithUrlStr:(NSString *)url completion:(MVImageCompletionBlock)completedBlock{
     if (url == nil || url.length == 0) { // 排除地址为nil的情况
         [self setImage:[UIImage imageNamed:@"listPlaceHolder"]];
         if (completedBlock) {completedBlock(nil,nil,nil);}
         return;
     }
-
+    
     SDWebImageDownloader *manager = [SDWebImageManager sharedManager].imageDownloader;
     [manager setValue:@"http://www.chinesetoday.cn" forHTTPHeaderField:@"Referer"];
     [self sd_setImageWithURL:[NSURL URLWithString:url] placeholderImage:[UIImage imageNamed:@"listPlaceHolder"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
@@ -48,10 +47,10 @@
  *  @param url            要加载的url字符串地址
  *  @param completedBlock 完成的回调
  */
-- (void)qs_setImageWithUrlStr:(NSString *)url placeholder:(NSString *)imgName completion:(QSImageCompletionBlock)completedBlock {
+- (void)mv_setImageWithUrlStr:(NSString *)url placeholder:(NSString *)placeholderImg completion:(MVImageCompletionBlock)completedBlock {
     // 占位图
-    UIImage *placeholderImage = (imgName.length) ? [UIImage imageNamed:imgName] : nil;
-
+    UIImage *placeholderImage = (placeholderImg.length) ? [UIImage imageNamed:placeholderImg] : nil;
+    
     if (url == nil || url.length == 0) { // 排除地址为nil的情况
         [self setImage:placeholderImage];
         
@@ -86,10 +85,10 @@
  *  @param url            要加载的url字符串地址
  *  @param completedBlock 完成的回调
  */
-- (void)qs_setImageWithUrlStr:(NSString *)url placeholder:(NSString *)imgName duration:(NSTimeInterval)duration completion:(QSImageCompletionBlock)completedBlock {
+- (void)mv_setImageWithUrlStr:(NSString *)url placeholder:(NSString *)placeholderImg duration:(NSTimeInterval)duration completion:(MVImageCompletionBlock)completedBlock {
     
     // 占位图
-    UIImage *placeholderImage = (imgName.length) ? [UIImage imageNamed:imgName] : nil;
+    UIImage *placeholderImage = (placeholderImg.length) ? [UIImage imageNamed:placeholderImg] : nil;
     
     if (url == nil || url.length == 0) { // 排除地址为nil的情况
         [self setImage:placeholderImage];
@@ -124,7 +123,7 @@
  *  @param url            要加载的url字符串地址
  *  @param completedBlock 完成的回调
  */
-- (void)qs_setImageWithUrlStr:(NSString *)url placeholderImage:(UIImage *)placeholderImage completion:(QSImageCompletionBlock)completedBlock {
+- (void)mv_setImageWithUrlStr:(NSString *)url placeholderImage:(UIImage *)placeholderImage completion:(MVImageCompletionBlock)completedBlock {
     if (url == nil || url.length == 0) { // 排除地址为nil的情况
         [self setImage:placeholderImage];
         

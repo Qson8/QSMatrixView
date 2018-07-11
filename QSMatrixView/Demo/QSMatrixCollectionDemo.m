@@ -7,6 +7,8 @@
 //
 
 #import "QSMatrixCollectionDemo.h"
+#import "UIImage+MV.h"
+#import "UIColor+MV.h"
 
 @interface QSMatrixCollectionDemo () <QSMatrixCollectionViewDelegate>
 @property (nonatomic, strong) NSMutableArray *cells;

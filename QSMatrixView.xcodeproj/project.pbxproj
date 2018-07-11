@@ -17,14 +17,8 @@
 		ECD9041E20F34A2600FD53E4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECD9041720F34A2600FD53E4 /* Info.plist */; };
 		ECD9042220F34A9500FD53E4 /* QSMatrixCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9042120F34A9500FD53E4 /* QSMatrixCollectionView.m */; };
 		ECD9042520F34AE800FD53E4 /* QSCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9042420F34AE800FD53E4 /* QSCollectionViewFlowLayout.m */; };
-		ECD9043520F34BE900FD53E4 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9042C20F34BE900FD53E4 /* UIImage+Extension.m */; };
-		ECD9043620F34BE900FD53E4 /* NSString+AttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9042F20F34BE900FD53E4 /* NSString+AttributedString.m */; };
-		ECD9043720F34BE900FD53E4 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9043020F34BE900FD53E4 /* UINavigationController+FDFullscreenPopGesture.m */; };
-		ECD9043920F34BE900FD53E4 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9043320F34BE900FD53E4 /* UIView+Extension.m */; };
-		ECD9043D20F34D4C00FD53E4 /* UIColor+QS.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9043C20F34D4C00FD53E4 /* UIColor+QS.m */; };
 		ECD9044020F34E4300FD53E4 /* QSMatrixCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9043F20F34E4300FD53E4 /* QSMatrixCollectionViewCell.m */; };
 		ECD9044320F34EC300FD53E4 /* QSMatrixCollectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9044220F34EC300FD53E4 /* QSMatrixCollectionItem.m */; };
-		ECD9044620F354D700FD53E4 /* UIImageView+QS.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9044520F354D700FD53E4 /* UIImageView+QS.m */; };
 		ECD9046620F355E500FD53E4 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9044B20F355E500FD53E4 /* SDWebImageManager.m */; };
 		ECD9046720F355E500FD53E4 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9044C20F355E500FD53E4 /* SDWebImageDecoder.m */; };
 		ECD9046820F355E500FD53E4 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9044E20F355E500FD53E4 /* UIImageView+HighlightedWebCache.m */; };
@@ -40,7 +34,6 @@
 		ECD9047220F355E500FD53E4 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9046020F355E500FD53E4 /* UIView+WebCacheOperation.m */; };
 		ECD9047320F355E500FD53E4 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9046420F355E500FD53E4 /* UIButton+WebCache.m */; };
 		ECD9047620F35A0000FD53E4 /* QSSupportView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9047520F35A0000FD53E4 /* QSSupportView.m */; };
-		ECD9047920F35D1400FD53E4 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9047820F35D1400FD53E4 /* UIButton+ImageTitleSpacing.m */; };
 		ECD9047B20F35ED500FD53E4 /* QSMatrixView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ECD9047A20F35ED500FD53E4 /* QSMatrixView.bundle */; };
 		ECD9047E20F361B500FD53E4 /* QSMatrixHeaderAndFooterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9047D20F361B500FD53E4 /* QSMatrixHeaderAndFooterItem.m */; };
 		ECD9048020F47CF800FD53E4 /* resources.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECD9047F20F47CF800FD53E4 /* resources.plist */; };
@@ -49,6 +42,11 @@
 		ECD9048F20F499B700FD53E4 /* QSMatrixCollectionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9048E20F499B700FD53E4 /* QSMatrixCollectionDemo.m */; };
 		ECD9049320F4A68D00FD53E4 /* QSMatrixCollectionDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9049220F4A68D00FD53E4 /* QSMatrixCollectionDemo2.m */; };
 		ECD9049620F4AFB800FD53E4 /* QSMatrixCollectionDemo3.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9049520F4AFB800FD53E4 /* QSMatrixCollectionDemo3.m */; };
+		ECEF001520F5A62800DB4B55 /* UIImageView+MV.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF001420F5A62800DB4B55 /* UIImageView+MV.m */; };
+		ECEF001820F5A63C00DB4B55 /* UIColor+MV.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF001720F5A63C00DB4B55 /* UIColor+MV.m */; };
+		ECEF001B20F5A65200DB4B55 /* UIButton+MV.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF001A20F5A65200DB4B55 /* UIButton+MV.m */; };
+		ECEF001E20F5A66900DB4B55 /* UIImage+MV.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF001D20F5A66900DB4B55 /* UIImage+MV.m */; };
+		ECEF002120F5A67500DB4B55 /* UIView+MV.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF002020F5A67500DB4B55 /* UIView+MV.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,22 +87,10 @@
 		ECD9042320F34AE800FD53E4 /* QSCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		ECD9042420F34AE800FD53E4 /* QSCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		ECD9042620F34B0F00FD53E4 /* QSMatrixView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSMatrixView.h; sourceTree = "<group>"; };
-		ECD9042920F34BE900FD53E4 /* NSString+AttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AttributedString.h"; sourceTree = "<group>"; };
-		ECD9042A20F34BE900FD53E4 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
-		ECD9042B20F34BE900FD53E4 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		ECD9042C20F34BE900FD53E4 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
-		ECD9042F20F34BE900FD53E4 /* NSString+AttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AttributedString.m"; sourceTree = "<group>"; };
-		ECD9043020F34BE900FD53E4 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
-		ECD9043220F34BE900FD53E4 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
-		ECD9043320F34BE900FD53E4 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		ECD9043B20F34D4C00FD53E4 /* UIColor+QS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+QS.h"; sourceTree = "<group>"; };
-		ECD9043C20F34D4C00FD53E4 /* UIColor+QS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QS.m"; sourceTree = "<group>"; };
 		ECD9043E20F34E4300FD53E4 /* QSMatrixCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSMatrixCollectionViewCell.h; sourceTree = "<group>"; };
 		ECD9043F20F34E4300FD53E4 /* QSMatrixCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSMatrixCollectionViewCell.m; sourceTree = "<group>"; };
 		ECD9044120F34EC300FD53E4 /* QSMatrixCollectionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSMatrixCollectionItem.h; sourceTree = "<group>"; };
 		ECD9044220F34EC300FD53E4 /* QSMatrixCollectionItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSMatrixCollectionItem.m; sourceTree = "<group>"; };
-		ECD9044420F354D600FD53E4 /* UIImageView+QS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+QS.h"; sourceTree = "<group>"; };
-		ECD9044520F354D700FD53E4 /* UIImageView+QS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+QS.m"; sourceTree = "<group>"; };
 		ECD9044920F355E500FD53E4 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
 		ECD9044A20F355E500FD53E4 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		ECD9044B20F355E500FD53E4 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
@@ -136,8 +122,6 @@
 		ECD9046520F355E500FD53E4 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
 		ECD9047420F35A0000FD53E4 /* QSSupportView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSSupportView.h; sourceTree = "<group>"; };
 		ECD9047520F35A0000FD53E4 /* QSSupportView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSSupportView.m; sourceTree = "<group>"; };
-		ECD9047720F35D1400FD53E4 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
-		ECD9047820F35D1400FD53E4 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
 		ECD9047A20F35ED500FD53E4 /* QSMatrixView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QSMatrixView.bundle; sourceTree = "<group>"; };
 		ECD9047C20F361B500FD53E4 /* QSMatrixHeaderAndFooterItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSMatrixHeaderAndFooterItem.h; sourceTree = "<group>"; };
 		ECD9047D20F361B500FD53E4 /* QSMatrixHeaderAndFooterItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSMatrixHeaderAndFooterItem.m; sourceTree = "<group>"; };
@@ -153,6 +137,16 @@
 		ECD9049220F4A68D00FD53E4 /* QSMatrixCollectionDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSMatrixCollectionDemo2.m; sourceTree = "<group>"; };
 		ECD9049420F4AFB800FD53E4 /* QSMatrixCollectionDemo3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSMatrixCollectionDemo3.h; sourceTree = "<group>"; };
 		ECD9049520F4AFB800FD53E4 /* QSMatrixCollectionDemo3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSMatrixCollectionDemo3.m; sourceTree = "<group>"; };
+		ECEF001320F5A62800DB4B55 /* UIImageView+MV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MV.h"; sourceTree = "<group>"; };
+		ECEF001420F5A62800DB4B55 /* UIImageView+MV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MV.m"; sourceTree = "<group>"; };
+		ECEF001620F5A63C00DB4B55 /* UIColor+MV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+MV.h"; sourceTree = "<group>"; };
+		ECEF001720F5A63C00DB4B55 /* UIColor+MV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MV.m"; sourceTree = "<group>"; };
+		ECEF001920F5A65200DB4B55 /* UIButton+MV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+MV.h"; sourceTree = "<group>"; };
+		ECEF001A20F5A65200DB4B55 /* UIButton+MV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MV.m"; sourceTree = "<group>"; };
+		ECEF001C20F5A66900DB4B55 /* UIImage+MV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MV.h"; sourceTree = "<group>"; };
+		ECEF001D20F5A66900DB4B55 /* UIImage+MV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MV.m"; sourceTree = "<group>"; };
+		ECEF001F20F5A67500DB4B55 /* UIView+MV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MV.h"; sourceTree = "<group>"; };
+		ECEF002020F5A67500DB4B55 /* UIView+MV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MV.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,20 +282,16 @@
 		ECD9042820F34BE900FD53E4 /* Categary */ = {
 			isa = PBXGroup;
 			children = (
-				ECD9044420F354D600FD53E4 /* UIImageView+QS.h */,
-				ECD9044520F354D700FD53E4 /* UIImageView+QS.m */,
-				ECD9042920F34BE900FD53E4 /* NSString+AttributedString.h */,
-				ECD9042F20F34BE900FD53E4 /* NSString+AttributedString.m */,
-				ECD9042A20F34BE900FD53E4 /* UINavigationController+FDFullscreenPopGesture.h */,
-				ECD9043020F34BE900FD53E4 /* UINavigationController+FDFullscreenPopGesture.m */,
-				ECD9043220F34BE900FD53E4 /* UIImage+Extension.h */,
-				ECD9042C20F34BE900FD53E4 /* UIImage+Extension.m */,
-				ECD9042B20F34BE900FD53E4 /* UIView+Extension.h */,
-				ECD9043320F34BE900FD53E4 /* UIView+Extension.m */,
-				ECD9043B20F34D4C00FD53E4 /* UIColor+QS.h */,
-				ECD9043C20F34D4C00FD53E4 /* UIColor+QS.m */,
-				ECD9047720F35D1400FD53E4 /* UIButton+ImageTitleSpacing.h */,
-				ECD9047820F35D1400FD53E4 /* UIButton+ImageTitleSpacing.m */,
+				ECEF001320F5A62800DB4B55 /* UIImageView+MV.h */,
+				ECEF001420F5A62800DB4B55 /* UIImageView+MV.m */,
+				ECEF001620F5A63C00DB4B55 /* UIColor+MV.h */,
+				ECEF001720F5A63C00DB4B55 /* UIColor+MV.m */,
+				ECEF001920F5A65200DB4B55 /* UIButton+MV.h */,
+				ECEF001A20F5A65200DB4B55 /* UIButton+MV.m */,
+				ECEF001C20F5A66900DB4B55 /* UIImage+MV.h */,
+				ECEF001D20F5A66900DB4B55 /* UIImage+MV.m */,
+				ECEF001F20F5A67500DB4B55 /* UIView+MV.h */,
+				ECEF002020F5A67500DB4B55 /* UIView+MV.m */,
 			);
 			path = Categary;
 			sourceTree = "<group>";
@@ -486,9 +476,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECD9046A20F355E500FD53E4 /* UIImage+GIF.m in Sources */,
-				ECD9043920F34BE900FD53E4 /* UIView+Extension.m in Sources */,
 				ECD9046620F355E500FD53E4 /* SDWebImageManager.m in Sources */,
 				ECD9046B20F355E500FD53E4 /* UIImage+MultiFormat.m in Sources */,
+				ECEF001B20F5A65200DB4B55 /* UIButton+MV.m in Sources */,
+				ECEF002120F5A67500DB4B55 /* UIView+MV.m in Sources */,
 				ECD9046820F355E500FD53E4 /* UIImageView+HighlightedWebCache.m in Sources */,
 				ECD9041C20F34A2600FD53E4 /* main.m in Sources */,
 				ECD9044020F34E4300FD53E4 /* QSMatrixCollectionViewCell.m in Sources */,
@@ -496,8 +487,8 @@
 				ECD9049320F4A68D00FD53E4 /* QSMatrixCollectionDemo2.m in Sources */,
 				ECD9046E20F355E500FD53E4 /* SDImageCache.m in Sources */,
 				ECD9049620F4AFB800FD53E4 /* QSMatrixCollectionDemo3.m in Sources */,
+				ECEF001520F5A62800DB4B55 /* UIImageView+MV.m in Sources */,
 				ECD9041820F34A2600FD53E4 /* QSMatrixCollectionDemo1.m in Sources */,
-				ECD9043720F34BE900FD53E4 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				ECD9047020F355E500FD53E4 /* NSData+ImageContentType.m in Sources */,
 				ECD9044320F34EC300FD53E4 /* QSMatrixCollectionItem.m in Sources */,
 				ECD9047E20F361B500FD53E4 /* QSMatrixHeaderAndFooterItem.m in Sources */,
@@ -505,17 +496,14 @@
 				ECD9048C20F496F300FD53E4 /* QSTableViewController.m in Sources */,
 				ECD9046720F355E500FD53E4 /* SDWebImageDecoder.m in Sources */,
 				ECD9047220F355E500FD53E4 /* UIView+WebCacheOperation.m in Sources */,
-				ECD9043620F34BE900FD53E4 /* NSString+AttributedString.m in Sources */,
 				ECD9041D20F34A2600FD53E4 /* AppDelegate.m in Sources */,
-				ECD9044620F354D700FD53E4 /* UIImageView+QS.m in Sources */,
 				ECD9048F20F499B700FD53E4 /* QSMatrixCollectionDemo.m in Sources */,
-				ECD9047920F35D1400FD53E4 /* UIButton+ImageTitleSpacing.m in Sources */,
 				ECD9046920F355E500FD53E4 /* SDWebImageDownloader.m in Sources */,
 				ECD9046D20F355E500FD53E4 /* SDWebImagePrefetcher.m in Sources */,
 				ECD9046F20F355E500FD53E4 /* SDWebImageDownloaderOperation.m in Sources */,
-				ECD9043520F34BE900FD53E4 /* UIImage+Extension.m in Sources */,
+				ECEF001820F5A63C00DB4B55 /* UIColor+MV.m in Sources */,
+				ECEF001E20F5A66900DB4B55 /* UIImage+MV.m in Sources */,
 				ECD9047620F35A0000FD53E4 /* QSSupportView.m in Sources */,
-				ECD9043D20F34D4C00FD53E4 /* UIColor+QS.m in Sources */,
 				ECD9046C20F355E500FD53E4 /* SDWebImageCompat.m in Sources */,
 				ECD9042220F34A9500FD53E4 /* QSMatrixCollectionView.m in Sources */,
 				ECD9047320F355E500FD53E4 /* UIButton+WebCache.m in Sources */,

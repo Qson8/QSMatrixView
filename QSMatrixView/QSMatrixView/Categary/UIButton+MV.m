@@ -1,15 +1,15 @@
 //
-//  UIButton+ImageTitleSpacing.m
+//  UIButton+MV.m
 //  QSMatrixView
 //
-//  Created by Qson on 2018/7/9.
+//  Created by Qson on 2018/7/11.
 //  Copyright © 2018年 Qson. All rights reserved.
 //
 
-#import "UIButton+ImageTitleSpacing.h"
+#import "UIButton+MV.h"
 
-@implementation UIButton (ImageTitleSpacing)
-- (void)layoutButtonWithEdgeInsetsStyle:(QSButtonEdgeInsetsStyle)style
+@implementation UIButton (MV)
+- (void)layoutButtonWithEdgeInsetsStyle:(MVButtonEdgeInsetsStyle)style
                         imageTitleSpace:(CGFloat)space {
     /**
      *  知识点：titleEdgeInsets是title相对于其上下左右的inset，跟tableView的contentInset是类似的，
@@ -39,25 +39,25 @@
     // 3. 根据style和space得到imageEdgeInsets和labelEdgeInsets的值
     
     switch (style) {
-        case QSButtonEdgeInsetsStyleTop:
+        case MVButtonEdgeInsetsStyleTop:
         {
             imageEdgeInsets = UIEdgeInsetsMake(-labelHeight-space/2.0, 0, 0, -labelWidth);
             labelEdgeInsets = UIEdgeInsetsMake(0, -imageWith, -imageHeight-space/2.0, 0);
         }
             break;
-        case QSButtonEdgeInsetsStyleLeft:
+        case MVButtonEdgeInsetsStyleLeft:
         {
             imageEdgeInsets = UIEdgeInsetsMake(0, -space/2.0, 0, space/2.0);
             labelEdgeInsets = UIEdgeInsetsMake(0, space/2.0, 0, -space/2.0);
         }
             break;
-        case QSButtonEdgeInsetsStyleBottom:
+        case MVButtonEdgeInsetsStyleBottom:
         {
             imageEdgeInsets = UIEdgeInsetsMake(0, 0, -labelHeight-space/2.0, -labelWidth);
             labelEdgeInsets = UIEdgeInsetsMake(-imageHeight-space/2.0, -imageWith, 0, 0);
         }
             break;
-        case QSButtonEdgeInsetsStyleRight:
+        case MVButtonEdgeInsetsStyleRight:
         {
             imageEdgeInsets = UIEdgeInsetsMake(0, labelWidth+space/2.0, 0, -labelWidth-space/2.0);
             labelEdgeInsets = UIEdgeInsetsMake(0, -imageWith-space/2.0, 0, imageWith+space/2.0);
